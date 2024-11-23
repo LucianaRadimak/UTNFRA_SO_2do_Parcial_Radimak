@@ -64,12 +64,6 @@ sudo vgs
 sudo lvcreate -L 5M vg_datos -n lv_docker
 
 # El lv "lv_workareas" de 1.5G
-<<<<<<< HEAD
-sudo lvcreate -L 100%FREE vg_datos -n lv_workareas
-
-# El lv "lv_swap" de 512MB
-sudo lvcreate -L 100%FREE vg_temp -n lv_swap
-=======
 sudo lvcreate -L 1.5G vg_datos -n lv_workareas
 
 # El lv "lv_swap" de 512MB
